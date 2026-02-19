@@ -1,0 +1,21 @@
+# Results and data
+results/
+pie_results/
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Model weights
+Qwen-Image-Edit/
+
+# Gradio
+.gradio/
+
+# IDE
+.vscode/
+.idea/
+*.swp
