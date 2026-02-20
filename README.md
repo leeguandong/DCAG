@@ -19,6 +19,25 @@ DCAG decomposes both Key and Value token embeddings into bias + delta components
 
 ---
 
+## Repository Structure
+
+```
+DCAG/
+├── dcag/                  # Core DCAG implementation (modified HuggingFace Diffusers)
+│   ├── models.py          # DCAG injection: K+V bias-delta reweighting in attention
+│   ├── pipeline.py        # QwenImageEditPipeline with DCAG support
+│   ├── attention.py       # Dual-stream attention processor with RoPE
+│   ├── scheduler.py       # FlowMatchEulerDiscreteScheduler
+│   └── utils.py           # Utilities
+├── inference.py           # Single-image editing script
+├── test.py                # PIE benchmark batch evaluation
+├── app.py                 # Gradio web UI
+├── requirements.txt
+└── assets/                # Sample images
+```
+
+---
+
 ## Installation
 
 ```bash
