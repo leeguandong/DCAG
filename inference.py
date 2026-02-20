@@ -3,10 +3,10 @@ import argparse
 import torch
 from PIL import Image
 from termcolor import colored
-from hacked_models.scheduler import FlowMatchEulerDiscreteScheduler
-from hacked_models.pipeline import QwenImageEditPipeline
-from hacked_models.models import QwenImageTransformer2DModel
-from hacked_models.utils import seed_everything
+from dcag.scheduler import FlowMatchEulerDiscreteScheduler
+from dcag.pipeline import QwenImageEditPipeline
+from dcag.models import QwenImageTransformer2DModel
+from dcag.utils import seed_everything
 
 seed_everything(42)
 

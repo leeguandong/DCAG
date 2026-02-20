@@ -12,10 +12,10 @@ import gradio as gr
 import torch
 from PIL import Image
 from huggingface_hub import snapshot_download
-from hacked_models.scheduler import FlowMatchEulerDiscreteScheduler
-from hacked_models.pipeline import QwenImageEditPipeline
-from hacked_models.models import QwenImageTransformer2DModel
-from hacked_models.utils import seed_everything
+from dcag.scheduler import FlowMatchEulerDiscreteScheduler
+from dcag.pipeline import QwenImageEditPipeline
+from dcag.models import QwenImageTransformer2DModel
+from dcag.utils import seed_everything
 
 _DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 _DTYPE = torch.bfloat16 if _DEVICE == "cuda" else torch.float32
