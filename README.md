@@ -115,10 +115,14 @@ grag_scale = [((512, 1.0, 1.0), (4096, 1.0, 1.10, 1.0, 1.15))] * 60
 If you find this work useful, please cite:
 
 ```bibtex
-@article{li2025dcag,
-  title={Dual-Channel Attention Guidance for Training-Free Image Editing Control in Diffusion Transformers},
-  author={Li, Guandong and Ye, Mengxia},
-  year={2025}
+@misc{li2026dualchannelattentionguidancetrainingfree,
+      title={Dual-Channel Attention Guidance for Training-Free Image Editing Control in Diffusion Transformers}, 
+      author={Guandong Li and Mengxia Ye},
+      year={2026},
+      eprint={2602.18022},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.18022}, 
 }
 ```
 
