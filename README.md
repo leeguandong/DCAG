@@ -1,6 +1,6 @@
 # Dual-Channel Attention Guidance (DCAG) for Image Editing
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.18022)
 
 > **Dual-Channel Attention Guidance for Training-Free Image Editing Control in Diffusion Transformers**
 > Guandong Li, Mengxia Ye
